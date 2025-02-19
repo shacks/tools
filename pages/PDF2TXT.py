@@ -2,6 +2,12 @@ import streamlit as st
 from PyPDF2 import PdfReader
 import io
 
+google_button = st.button("Google Login")
+
+if google_button:
+    st.login(provider="google")
+
+
 st.title("PDF Text Extractor")
 
 # File uploader

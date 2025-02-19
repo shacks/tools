@@ -10,7 +10,7 @@ langchain
 faiss-cpu
 python-docx
 pydantic
-
-
+together
+Authlib
 
 
